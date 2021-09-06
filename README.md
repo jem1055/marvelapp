@@ -1,5 +1,16 @@
 # Marvel
 
+## Stack
+
+Para el desarollo de la prueba use las siguientes tecnologias:
+
+- angular
+- bootstrap
+- css
+- javascript
+
+Tuve la idea de usar el local storage para llevar el conteo de votos, use tanto bootstrap como css, ya que me gusta usar mas css porque tengo el contro de mis componetes y puedo agregar muchas mas funciones. Por Cuestiones de tiempo no pude finalizar la prueba en su totalidad
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
 ## Development server

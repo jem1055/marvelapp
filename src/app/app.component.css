@@ -1,0 +1,198 @@
+.header {
+  width: 90%;
+  background-image: url(../assets/img/iroman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 630px;
+  left: 50px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.header:before {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .bg-dark {
+    background-color: transparent !important;
+  }
+}
+
+.navg a {
+  color: #f4f4f4 !important;
+  font-family: "Montserrat";
+  font-size: 13px;
+  padding: 10px 15px;
+  text-align: left;
+  text-transform: uppercase;
+  align-items: flex-end;
+}
+
+.navg a:hover {
+  background-color: #c10000a2;
+}
+
+.text-header {
+  background-color: darkgrey;
+  min-height: 10vh;
+
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.text-header h2 {
+  font-family: "Anton";
+}
+
+.text-header span {
+  letter-spacing: 5px;
+  font-size: 1.3em;
+  font-family: "Anton";
+  margin: 0 0 0 5px;
+}
+
+.text-header p {
+  font-size: 1em;
+}
+
+.btn-yo {
+  padding: 7px 12px;
+  color: #f4f4f4;
+  background-color: #c10000e0;
+}
+
+.btn-yo:hover {
+  color: #f4f4f4;
+  background-color: #c10000;
+}
+
+.card {
+  grid-row: 2/3;
+  margin: 8rem;
+  opacity: 0.8;
+}
+
+.btn_plus {
+  background-color: #01b1a7;
+  color: #f4f4f4;
+  font-size: 20px;
+}
+
+.btn_less {
+  background-color: #ff9e01;
+  color: #f4f4f4;
+  font-size: 20px;
+}
+
+.progress {
+  height: 50px;
+}
+
+.progress-plus {
+  background-color: #01b1a7 !important;
+  text-align: end;
+  font-size: 30px;
+  color: #f4f4f4;
+}
+
+.progress-less {
+  background-color: #ff9e01 !important ;
+  text-align: start;
+  font-size: 30px;
+  color: #f4f4f4;
+}
+
+.plus {
+  display: none;
+}
+
+.less {
+  display: none;
+}
+
+.col-plus {
+  height: 5rem;
+  width: 5rem;
+  background-color: #01b1a7 !important;
+  border-radius: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.col-less {
+  height: 5rem;
+  width: 5rem;
+  background-color: #ff9e01 !important ;
+  border-radius: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.alert {
+  width: 74%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  left: 250px;
+  position: center;
+  margin-bottom: 2rem;
+}
+
+.back {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.sup {
+  background-image: url(../assets/img/superman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 630px;
+  left: 50px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.tho {
+  background-image: url(../assets/img/thor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 630px;
+  left: 50px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.bat {
+  background-image: url(../assets/img/batman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 630px;
+  left: 50px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.spi {
+  background-image: url(../assets/img/spiderman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 630px;
+  left: 50px;
+  position: relative;
+  margin-bottom: 2rem;
+}
